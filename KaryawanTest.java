@@ -1,21 +1,21 @@
 public class KaryawanTest{
 	public static void main(String[] args) {
-	System.out.println("===jabatan PM===");
+	System.out.println("PROJECT MANAGER");
 	ProjectManager m = new ProjectManager();
 	m.setNama("Meli");
 	m.setAlamat("Sukasari");
-	m.setGaji(90);
+	m.setGaji(1000);
 
-	System.out.println("===jabatan Programmer===");
+	System.out.println("PROGRAMMER");
 	Programmer p = new Programmer();
 	p.setNama("Rian");
 	p.setAlamat("Arahan");
-	p.setGaji(60);
+	p.setGaji(30);
 
-	System.out.println("===jabatan Desainer===");
+	System.out.println("DESIGNER");
 	Designer d = new Designer();
 	d.setNama("Desi");
 	d.setAlamat("Pabean");
-	d.setGaji(50);
+	d.setGaji(60);
 	}
 }
