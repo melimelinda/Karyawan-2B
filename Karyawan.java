@@ -3,11 +3,8 @@ public class Karyawan{
 	String alamat;
 	private int gaji;
 	
-	public int getGaji(){
-		return this.gaji;
-	}
-	public void setGaji(int uang){
-		this.gaji=uang;
+	public int getGaji(int uang){
+		return gaji+=uang;
 	}
 	public void setNama(String nama){
 		System.out.println("nama = "+nama);
